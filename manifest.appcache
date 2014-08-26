@@ -1,0 +1,27 @@
+CACHE MANIFEST
+# Checksum (stdin)= 8e6b81183f3b7fb14b13071f71fe367f
+
+CACHE:
+fallback.html
+index.html
+index.js
+manifest.appcache
+manifest.webapp
+icons/activity.svg
+icons/apps.svg
+icons/discover.svg
+icons/me.svg
+styles/common.css
+styles/common.less
+styles/components.less
+styles/forms.less
+styles/normalize.less
+styles/views.less
+
+NETWORK:
+*
+http://*
+https://*
+
+FALLBACK:
+/ fallback.html
