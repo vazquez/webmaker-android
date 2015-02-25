@@ -1,11 +1,12 @@
 @btnInsetShadow: inset 0px 2px 5px rgba(0,0,0,0.2);
 @btnShadowGradient: #548fc3;
+@btnPadding: 15px;
 
 .btn {
     display: block;
     position: relative;
     width: 100%;
-    padding: 15px;
+    padding: @btnPadding;
     padding-bottom: 12px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
@@ -72,6 +73,7 @@
             position: absolute;
             top: 13px;
             left: 22px;
+            left: ~"calc(10% - " @btnPadding ~" + 0.5em)";
         }
         &:before {
             position: absolute;
